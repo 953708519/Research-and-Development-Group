@@ -1,0 +1,56 @@
+
+/*顶部样式*/
+.top{
+	height:60px;
+	width: 100%;
+	background-color:#333; 
+}
+.top .top_nav{
+	width: 1341px;
+	margin: 0 auto;
+	height: 100%;
+	/*background-color: #FFFFCC; */
+}
+.top .top_nav_left{
+    width:143px;
+    height: 100%;
+    float:left;
+   /* background-color: green;*/
+}
+.top .top_nav_left>h1{
+    width: 100%;
+    height: 100%;
+}
+.top .top_nav_left>h1>a{
+    display: inline-block;
+    width:100%;
+    height: 100%;
+    background:url("../images/logo.jpg");
+}
+.top .top_nav_right{
+    width:700px;
+    height: 100%;
+    float:right;
+   /* background-color: yellow;*/
+}
+.top .top_nav_right>li{
+	float: left;
+}
+.top .top_nav_right>li>a{
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 60px;
+	margin-left: 40px;
+}
+.top .top_nav_right>li>a:hover{
+	color: #e82c07;
+
+}
+/*底部样式*/
+.footer{
+    color: #ffffff;
+    background-color: #2a2e46;
+    height: 710px;
+    width: 100%;
+}
