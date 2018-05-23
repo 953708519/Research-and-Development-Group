@@ -27,3 +27,6 @@ body{
     color:#999;
     background-color:#CCC;
 }
+b, strong {
+    font-weight: bold;
+}
