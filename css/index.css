@@ -1,5 +1,5 @@
 
-/*¶¥²¿ÑùÊ½*/
+/*é¡¶éƒ¨æ ·å¼*/
 .top{
 	height:60px;
 	width: 100%;
@@ -51,7 +51,7 @@
 	color: #e82c07;
 
 }
-/*ÂÖ²¥Í¼ÑùÊ½*/
+/*è½®æ’­æ ·å¼*/
 .banner{
     height: 800px;
     width: 100%;
@@ -63,7 +63,7 @@
     height: 100%;
     width: 100%;
 }
-/*Õ¹Ê¾ÇøÑùÊ½*/
+/*é¡¹ç›®æ ·å¼*/
 .show{
     height: 950px;
     width: 100%;
@@ -125,17 +125,34 @@
 .caption>a>p{
     line-height: 1.8em;
 }
-/*¶¯Ì¬ÇøÓòÑùÊ½*/
+/*åŠ¨æ€æ ·å¼*/
 .news{
-    height: 800px;
+    height: 900px;
     width: 100%;
-    background-color: pink;
+    background-color: #fff;
 }
 .news_center{
     width: 1200px;
     margin: 0 auto;
-    background-color: black;
+    /*background-color: black;*/
     height: 100%;
+}
+.title2{
+    padding: 90px 0px;
+    text-align: center;
+}
+.title2>h2{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: black;
+
+}
+.title2>p{
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
 }
 .col_container{
     width: 100%;
@@ -173,25 +190,27 @@
     overflow: hidden;
     margin-top: 35px;
     margin-bottom: 15px;
-    background-color: black; 
+    
+    /*background-color: black; */
 }
 .box_title>a{
     font-size: 18px;
     color: #fff;
+    color: black;
 }
 .box_text{
     height: 45px;
     line-height: 22px;
     overflow: hidden;
     font-size: 14px;
-    color: yellow;
+    color: black;
 }
 .box_time{
     color: black;
     height: 10px;
     width: 100px;
 }
-/*µ×²¿ÑùÊ½*/
+/*åº•éƒ¨æ ·å¼*/
 .footer{
     color: #ffffff;
     background-color: #2a2e46;
@@ -210,14 +229,16 @@ height: 100%;
     height: 100%;
     margin-left: -15px;
     margin-right: -15px;
-    background-color: #fff;
+    background-color: transparent;
+    /*margin-top: 10px;*/
 }
 .row_col
 {
 width: 195px;
 height: 100%;
-background-color: red;
+background-color: transparent;
 float: left;
+/*padding: 30px;*/
 }
 .row_col>h3{
     font-size: 16px;
@@ -234,4 +255,42 @@ float: left;
     height: 3px;
     margin-bottom: 20px;
     background-color: #5584ff;
+}
+.row_contact{
+    height: 300px;
+    width:330px;
+    float: right;
+    background-color: transparent;
+   /* padding: 30px;*/
+   margin-left: 15px;
+
+}
+.row_contact>h3{
+
+     font-size: 16px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.icon1{
+   margin-bottom: 15px;
+    width: 100%;
+    height: 35px;
+}
+.icon1>img{
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+}
+.icon1>span{
+font-size: 15px;
+margin-left: 15px;
+
+}
+.last{
+    width: 100%;
+    height: 60px;
+    background-color: #2f365e;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
 }
