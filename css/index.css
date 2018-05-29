@@ -71,7 +71,7 @@
 
 }
 .show .show_center{
-    width: 1170px;
+    width: 80%;
     margin: 0 auto;
    /*background-color: #fff;*/
     height: 100%;
@@ -135,7 +135,7 @@
     background-color: #fff;
 }
 .news_center{
-    width: 1200px;
+    width: 80%;
     margin: 0 auto;
     /*background-color: black;*/
     height: 100%;
