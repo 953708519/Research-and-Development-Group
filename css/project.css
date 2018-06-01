@@ -1,6 +1,6 @@
 .main{
    width: 100%;
-   height: 800px;
+   height: 800%;
    background: blue;
    padding: 30px;
  
@@ -10,4 +10,54 @@
    width: 70%;  
    margin:0 auto;
    height: 100%;
+}
+.head_img{
+	width: 100%;
+	height: 300px;
+	background:url(../images/project.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	line-height: 300px;
+	box-sizing: border-box;
+	overflow: hidden;
+	/* -webkit-filter: blur(1px);
+     -moz-filter: blur(1px);
+     -o-filter: blur(1px);
+     -ms-filter: blur(1px);
+      filter: blur(1px);*/
+}
+
+.head_img>h1{
+	font-weight: 600;
+	font-size: 30px;
+}
+.project{
+	width: 100%;
+	height: 500px;
+	background-color: red;
+}
+.project>ul>li{
+  width: 100%;
+  height: 290px;
+  background-color: green;
+ 
+}
+.project_left{
+	width: 30%;
+	height: 100%;
+	float: left;
+	padding: 20px; 
+	box-sizing: border-box;
+}
+.project_left .img{
+
+	width: 100%;
+	height: 100%;
+	background: url(../images/show1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.project_right{
+	width: 
 }
