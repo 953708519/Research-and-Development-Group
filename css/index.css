@@ -65,7 +65,7 @@
 }
 /*项目样式*/
 .show{
-    height: 950px;
+    height: 650px;
     width: 100%;
     background-color: #fafafa;
 
@@ -130,7 +130,7 @@
 }
 /*动态样式*/
 .news{
-    height: 900px;
+    height: 700px;
     width: 100%;
     background-color: #fff;
 }
@@ -159,12 +159,12 @@
 }
 .col_container{
     width: 100%;
-    height:550px;
+    height:350px;
     /*background-color: #fff;*/
 }
 .col_box{
     width: 50%;
-    height: 33%;
+    height:50%;
    /* background-color: red;*/
     float: left;
     
@@ -178,7 +178,7 @@
 }
 .box_right{
     float: right;
-   width: 420px;
+   width: 320px;
    height: 160px; 
    
     background: url(../images/news_button.png) no-repeat
