@@ -2,11 +2,11 @@
 /*顶部样式*/
 .top{
 	height:60px;
-	width: 100%;
+	/*width: 100%;*/
 	background-color:#12093e; 
 }
 .top .top_nav{
-	width: 1140px;
+	width: 980px;
 	margin: 0 auto;
 	height: 100%;
 	/*background-color: #FFFFCC; */
@@ -69,6 +69,8 @@
    /* height: 650px;*/
     width: 100%;
     background-color: #fafafa;
+    overflow: hidden;
+    *zoom:;
 
 }
 .show .show_center{
@@ -98,22 +100,36 @@
 }
 .show_con{
     width: 100%;
-   
-    height: 343px;
+   /* height: 300px;*/
 }
 .show_con .show_col{
-    width: 33.33333333%;
-   /* background-color:yellow;*/
-    height: 100%; 
+   /* background-color:yellow;*/ 
     float: left;
    text-align: center;
+   padding-left: 80px;
+   padding-bottom: 20px; 
 }
+
+
 .show_img{
-    padding: 4px;
-    width: 98%;
-    height: 98%;
+    
+    width: 300px;
+   /* height: 250px;*/
     /*background-color: red;*/
     max-height: 330px; 
+   border: 1px solid #e4ecf3;
+
+
+}
+.show_img:hover{
+    transform: translateY(-6px);
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    box-shadow: 0 26px 40px -24px rgba(0,36,100,.5);
+    -webkit-box-shadow: 0 26px 40px -24px rgba(0,36,100,.5);
+}
+.show_img>a>img{
+    width: 100%;
 
 }
 .caption{
@@ -121,25 +137,29 @@
 }
 .caption>a>strong{
     font-size: 15px;
-    
     line-height: 4em;
       color: #969696;
 }
 .caption>a>p{
     line-height: 1.8em;
       color: #969696;
+      display:block;
+      margin: 10px;
+      box-sizing: border-box;
+      overflow: hidden;
 }
 /*动态样式*/
 .news{
-    height: 700px;
+    /*height: 700px;*/
     width: 100%;
     background-color: #fff;
+
 }
 .news_center{
     width: 80%;
     margin: 0 auto;
     /*background-color: black;*/
-    height: 100%;
+    /*height: 100%;*/
 }
 .title2{
     padding: 90px 0px;
@@ -160,46 +180,53 @@
 }
 .col_container{
     width: 100%;
-    height:350px;
+    /*height:350px;*/
     /*background-color: #fff;*/
+    overflow: hidden;
+    *zoom:1;
 }
-.col_box{
+.col_content{
     width: 50%;
-    height:50%;
+    height: 200px;
    /* background-color: red;*/
     float: left;
     
 }
+.col_box{
+    overflow: hidden;
+    *zoom:1;
+}
 .box_left{
     float: left;
     width: 160px;
-    height: 160px;
+    height: 150px;
     background-color: red;
      margin-left: 10px;
 }
 .box_right{
     float: right;
-   width: 320px;
-   height: 160px; 
-   
-    background: url(../images/news_button.png) no-repeat
-    bottom right;
+   width: 420px;
+   height: 150px; 
+   position: relative;
   
+}
+.box_right>img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 .box_title{
     height: 30px;
-    line-height: 30px;
     text-align: left;
     text-overflow: ellipsis;
     overflow: hidden;
-    margin-top: 35px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     
     /*background-color: black; */
 }
-.box_title>a{
+.box_title>a>p{
     font-size: 18px;
-    color: #fff;
+    line-height: 30px;
     color: black;
 }
 .box_text{
@@ -218,32 +245,37 @@
 .footer{
     color: #ffffff;
     background-color: #2a2e46;
-    height: 300px;
     width: 100%;
 }
 .footer_container{
-width: 1170px;
+width: 100%;
 margin:0 auto;
 padding-left: 15px;
 padding-right: 15px;
+box-sizing: border-box;
 height: 100%;
+overflow: hidden;
+*zoom:1;
 }
 .row{
     width: 100%;
-    height: 100%;
+   /* height: 100%;*/
     margin-left: -15px;
     margin-right: -15px;
     background-color: transparent;
+    overflow: hidden;
+    *zoom:1;
     /*margin-top: 10px;*/
 }
 .row_col
 {
 width: 195px;
-height: 100%;
+height: 300px;
 background-color: transparent;
 float: left;
 padding: 30px;
 box-sizing: border-box;
+margin-left: 30px;
 
 }
 .row_col>h3{
